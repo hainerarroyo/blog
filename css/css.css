@@ -8,14 +8,35 @@ body{
 .container{
     margin: 0 auto;
     border: 1px solid rgb(197, 195, 195);
+    padding:0;
+    width:60%;
+}
+
+.post{
     padding:1em;
-    width:40%;
 }
 
 .container  h1{
     font-size: 2em;
 }
 
+.cabecera{
+    background-color: blue;
+    font-size: 2em;
+    padding:.5em;
+    font-weight: bold;
+    color:white;
+    text-shadow: 1px 1px 1px black;
+    text-align: left;
+    box-shadow: 1px solid gray;
+}
+
+
+.stitulo{
+    color:white;
+    font-size: 0.6em;
+    
+}
 .container p{
     font-weight: lighter;
 }
